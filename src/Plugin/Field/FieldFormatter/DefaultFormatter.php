@@ -9,6 +9,7 @@ namespace Drupal\fivestar\Plugin\Field\FieldFormatter;
 
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
+use Drupal\fivestar\Plugin\Field\FieldFormatter\FiveStarFormatterBase;
 
 /**
  * Plugin implementation of the 'fivestar_default' formatter.

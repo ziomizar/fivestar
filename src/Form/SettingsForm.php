@@ -22,6 +22,10 @@ class SettingsForm extends ConfigFormBase {
     return 'fivestar_settings_form';
   }
 
+  protected function getEditableConfigNames() {
+    return ['fivestar.settings'];
+  }
+
   /**
    * {@inheritdoc}
    */

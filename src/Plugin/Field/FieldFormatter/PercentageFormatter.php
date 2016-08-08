@@ -7,6 +7,8 @@
 
 namespace Drupal\fivestar\Plugin\Field\FieldFormatter;
 
+use Drupal\fivestar\Plugin\Field\FieldFormatter\FiveStarFormatterBase;
+
 /**
  * Plugin implementation of the 'number_decimal' formatter.
  *

@@ -558,7 +558,7 @@ function fivestar_fivestar_target_info($field, $instance) {
     ),
   );
   $module_handler = \Drupal::moduleHandler();
-  // Add node_referrence support.
+  // Add node_reference support.
   if ($module_handler->moduleExists('node_reference')) {
     $field_names = array_keys(field_read_fields(array('module' => 'node_reference')));
     if (!empty($field_names)) {
